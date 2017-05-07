@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LED Parser</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+
+<!-- wrapper for the LED screen -->
+<body onLoad="scrollDiv_init()">
+    <h2>A simple parsing button to read the display.</h2>
+    
+    <button>Press to parse screen</button>
+    
+    <div id="ScrollingDiv" style="overflow:hidden;width:700px;height:30px;background-color:black;color:white;text-align:left;font-size:20px" onMouseOver="pauseDiv()" onMouseOut="resumeDiv()">
+    SOME TEXT YOU NEED TO SCROLL GOES HERE.  THIS IS A TEST TO SEE IF THIS WILL EVEN SCROLL OR JUST STAY LOCKED IN PLACE FOREVER.
+    </div>
+
+    <textarea placeholder="This is where the parsed data will show up"></textarea>
+
+<script type="text/javascript" src="/LED.js"></script>
+</body>
+
+</html>

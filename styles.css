@@ -1,0 +1,29 @@
+h2 {
+    color: blue;
+}
+
+.light {
+  width: 5px;
+  height: 5px;
+  margin: 1px 1px;
+  text-align: center;
+  font-size: 15px;
+  float: left;
+  border-radius: 50%;
+}
+
+.off { background-color: #121212; }
+
+.on { background-color: red; }
+
+textarea {
+    height: 80px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+button {
+    margin: 10px 0px 20px 5px;
+    background-color: blue;
+    color: red;
+}
